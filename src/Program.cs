@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 variables 
+
 string prenom;
 string Nom;
 
@@ -10,7 +11,7 @@ prenom =string.parse(console.readline());
 console.WriteLine("Saisissez le nom");
 nom = String.parse(console.readline());
 
-console.WriteLine(nom + prenom);
+console.WriteLine(nom+ "Nom " + prenom+ " Prenom" + " bienvenue sur notre github"); // affichage console 
 
 
 
